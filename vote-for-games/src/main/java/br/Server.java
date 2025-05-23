@@ -47,11 +47,13 @@ public class Server extends UnicastRemoteObject implements VoteManager {
                 public void run() {
                     server.showVotes();
                 }
-            }, 0, 5000);
+            }, 0, 10000);
 
 
         } catch (RemoteException e) {
-            throw new RuntimeException(e);
+            System.out.println("Erro no servidor RMI: ");
+            e.printStackTrace();
+            System.exit(1);
         }
 
 
@@ -82,7 +84,7 @@ public class Server extends UnicastRemoteObject implements VoteManager {
         System.out.println("\nApuração Atualizada: ");
         System.out.println("-----------------------------------");
         for (Game game : games) {
-            System.out.printf("%-2d %-15s %s \t%d\n",
+            System.out.printf("%-2d %-25s \t%-10s \t%d\n",
                     game.getNumber(),
                     game.getName(),
                     new String(new char[8]).replace('\0', '-'),
