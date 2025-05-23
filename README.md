@@ -11,3 +11,35 @@ O projeto mostra as classes Cliente e Servidor utilizando aplicações distribu�
 para transmitir os parâmetros entre o cliente e o servidor.
 
 A aplicação swing é apenas para fins de demonstração da interação presente.
+
+
+## Algumas imagens do funcionamento com o layout
+
+![Demonstração 1](https://github.com/Jullianag/vote-for-games/blob/main/vote-for-games/src/main/resources/assets/layout1.png)
+
+![Demonstração 2](https://github.com/Jullianag/vote-for-games/blob/main/vote-for-games/src/main/resources/assets/layout2.png)
+
+![Demonstração 3](https://github.com/Jullianag/vote-for-games/blob/main/vote-for-games/src/main/resources/assets/funcionamento.png)
+
+![Demonstração 4](https://github.com/Jullianag/vote-for-games/blob/main/vote-for-games/src/main/resources/assets/resultado.png)
+
+
+## Modelo conceitual
+
+![Modelo Conceitual](https://github.com/Jullianag/vote-for-games/blob/main/vote-for-games/src/main/resources/assets/uml.png)
+
+
+# Tecnologias utilizadas
+## Back end
+- Java
+- Swing
+- Maven
+
+## Back end
+Pré-requisitos: Java 21
+
+# Autor
+
+Julliana Gnecco
+
+https://www.linkedin.com/in/julliana-gnecco/
