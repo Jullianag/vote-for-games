@@ -31,7 +31,7 @@ public class Server extends UnicastRemoteObject implements VoteManager {
             server.addGames("The Witcher 3", 3);
             server.addGames("Elden RIng", 4);
             server.addGames("Cyberpunk 2077", 5);
-            server.addGames("The Witcher 4", 6);
+            server.addGames("Gran Turismo 7", 6);
             server.addGames("Alan Wake II", 7);
             server.addGames("Ghost of Tsushima", 8);
             server.addGames("Spider Man 2", 9);
